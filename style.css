@@ -1,0 +1,179 @@
+html,body,div,iframe,h2,p,a,img,i{
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  line-height: 1;
+}
+
+a{
+  text-decoration: none!important;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+a{
+  color:#1abc9c;
+}
+
+a:hover{
+  color:#16a085;
+}
+
+body{
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.7em;
+  color: #777777;
+  font-weight: normal;
+}
+
+h2{
+    font-size: 2.8em;
+    line-height: .9em;
+    text-transform: uppercase;
+    position: relative;
+    margin: 1em 0 1.4em;
+    color: #484f58;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.site{
+  z-index: -1;
+  clear: both;
+  background-image: url('fundal.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.site .continut, .home-slider{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.site .cH{
+  padding: 145px 0 250px;
+}
+
+.site .continut h2,
+.cH h2{
+  color: #fff;
+}
+
+.site .continut h2, .cH h2{
+  font-size: 2.5em;
+}
+
+.site .continut p{
+  width: 70%;
+  margin: 0 auto 30px auto;
+  color: #fff;
+}
+
+.mk {
+	width: 100%;
+}
+
+.md {
+	width: 100%;
+	max-width: 1140px;
+	min-width: 755px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.md:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.gd {
+	padding: 20px 0 0px 20px;
+}
+
+.cnt{
+  margin-left: 46%;
+  color: black;
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.tel{
+  float: left;
+  margin-left: 20%;
+  color: black;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.mail{
+  float: right;
+  margin-right: 20%;
+  color: black;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.buton1{
+  float: left;
+  margin-top: -15%;
+  font-size: 30px;
+}
+.buton2{
+  float: right;
+  margin-top: -15%;
+  font-size: 30px;
+}
+
+.mPt{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.despreMn{
+  background-image: url("fundal.jpg");
+}
+
+.cDM{
+  float: left;
+  margin-left: 5%;
+  margin-top: 10%;
+
+}
+
+.hP{
+  float: right;
+}
+
+.hP img{
+  max-width: 500px;
+  max-height: 500px;
+  margin-right: 100px;
+}
+
+.mPf{
+  float: right;
+  margin-top: 20px;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-right: 20%;
+  color: white;
+}
+
+li{
+  color: white;
+  font-size: 25px;
+}
